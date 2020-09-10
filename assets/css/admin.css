@@ -1,0 +1,47 @@
+.topbar .dropdown .dropdown-menu {
+    left: 0;
+}
+.sidebar {
+    width: 6.5rem;
+    min-height: 100vh;
+    padding: 0;
+}
+.sidebar-dark .nav-item .nav-link {
+    text-align: right;
+}
+.sidebar .nav-item .nav-link[data-toggle=collapse]::after {
+    float: left;
+    transform: rotate(180deg);
+}
+
+/* login page */
+.bg-gradient-primary .card {
+    max-width: 60%;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid  
+{
+    background-position: center left calc(.375em + .1875rem);
+}
+.invalid-feedback 
+{
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+.card .no-gutters
+{
+    text-align: right;
+}
+.sidebar .nav-item .collapse .collapse-item
+{
+    text-align: right;
+}
+.topbar .dropdown .dropdown-menu
+{
+    text-align: right;
+}
